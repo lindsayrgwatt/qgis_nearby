@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <HISTORY saga-version="2.2.3">
+    <MODULE library="shapes_points" id="10" name="Add Polygon Attributes to Points">
+      <OPTION type="table_fields" id="FIELDS" name="Attributes">0</OPTION>
+      <INPUT type="shapes" id="INPUT" name="Points">
+        <FILE>/Users/lindwatt/Desktop/layers/nearby_2163.shp</FILE>
+      </INPUT>
+      <INPUT type="shapes" id="POLYGONS" name="Polygons">
+        <FILE>/Users/lindwatt/Desktop/layers/base_2163_1000m_buffer.shp</FILE>
+      </INPUT>
+      <OUTPUT type="shapes" id="OUTPUT" name="Result">nearby_2163 [base_2163_1000m_buffer]</OUTPUT>
+    </MODULE>
+  </HISTORY>
+  <SOURCE>
+    <FILE>/Users/lindwatt/Desktop/layers/nearby_2163_w_landmark.shp</FILE>
+    <DATABASE></DATABASE>
+    <PROJECTION>
+      <OGC_WKT>PROJCS["US_National_Atlas_Equal_Area",GEOGCS["GCS_Unspecified datum based upon the Clarke 1866 Authalic Sphere",DATUM["D_Sphere_Clarke_1866_Authalic",SPHEROID["Clarke_1866_Authalic_Sphere",6370997,0]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]],PROJECTION["Lambert_Azimuthal_Equal_Area"],PARAMETER["latitude_of_origin",45],PARAMETER["central_meridian",-100],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["Meter",1]]</OGC_WKT>
+      <PROJ4>+proj=laea +a=6370997.000000 +b=6370997.000000 +lat_0=45 +lon_0=-100 +x_0=0 +y_0=0 +no_defs</PROJ4>
+      <EPSG>-1</EPSG>
+    </PROJECTION>
+  </SOURCE>
+  <DESCRIPTION></DESCRIPTION>
+</SAGA_METADATA>
